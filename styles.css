@@ -3,11 +3,6 @@
 /***************************/
 
 body {
-	background-image: url("img/dark_blue_background.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	
 	margin: 0 auto;
 	max-width: 800px;
 	/*border-left: 3px double silver;*/
@@ -17,6 +12,13 @@ body {
 	/*background-image: linear-gradient(to bottom right, #d6fdc6, #d0d0ff, #feffc1);*/
 	color: #e0e0e0;
 	font-family: "Arial", sans-serif;
+}
+
+.body_bg{
+	background-image: url("img/dark_blue_background.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
 h1{
@@ -83,3 +85,55 @@ thead{
 	margin-right:auto;
 	max-height: 150px;
 }
+
+/**************/
+/*game1 styles*/
+/**************/
+
+/*Style for every container made of sidebar+main*/
+.container{
+	position: relative
+	padding: 0 0 0 55px;
+}
+
+/*Style for sidebar*/
+
+.g1_sidebar{
+	position:absolute;
+    border:1px solid white;
+	top:0; bottom:0; left:0;
+    width:200px; height:600px;
+    margin:20px 0 0 20px;
+	background:#000;
+	}
+
+.g1_inv_empty{
+	border:1px solid white;
+	top:0; bottom:0; left:0;
+    width:135px; height:160px;
+    margin:0 0 0 0;
+	background:#888888;
+	}
+
+
+/*Style for main*/
+
+.g1_main{
+	border:1px solid white; 
+	width:1000px; height:600px;
+    margin:20px 0 0 0;
+	background:#000;
+}
+
+.g1_table1{
+	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
+}
+.g1_hud{
+	border:1px solid white; 
+	width:150px; height:100px;
+    margin:0 0 0 0;
+	background:#000;
+}
+
