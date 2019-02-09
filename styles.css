@@ -94,6 +94,7 @@ thead{
 .container{
 	position: relative
 	padding: 0 0 0 55px;
+	/*text-align:left;*/
 }
 
 /*Style for sidebar*/
@@ -102,17 +103,19 @@ thead{
 	position:absolute;
     border:1px solid white;
 	top:0; bottom:0; left:0;
-    width:200px; height:600px;
+    width:12	0px; height:600px;
     margin:20px 0 0 20px;
 	background:#000;
+	text-align:center;
 	}
 
 .g1_inv_empty{
 	border:1px solid white;
 	top:0; bottom:0; left:0;
-    width:135px; height:160px;
+    width:50px; height:75px;
     margin:0 0 0 0;
-	background:#888888;
+	background:#888888;	
+	text-align:center;
 	}
 
 
@@ -120,20 +123,21 @@ thead{
 
 .g1_main{
 	border:1px solid white; 
-	width:1000px; height:600px;
+	width:900px; height:600px;
     margin:20px 0 0 0;
 	background:#000;
+	text-align:center;
 }
 
 .g1_table1{
+	border:none; 
+	padding:none;
 	border-collapse:collapse;
 	margin-left:auto;
 	margin-right:auto;
 }
 .g1_hud{
-	border:1px solid white; 
-	width:150px; height:100px;
-    margin:0 0 0 0;
-	background:#000;
+	margin-left:auto;
+	margin-right:auto;
 }
 
